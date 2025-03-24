@@ -1,0 +1,20 @@
+.custom-input-wrapper {
+  display: flex;
+  justify-content: center;
+
+  .custom-input {
+    width: 95%;
+    height: 2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+
+    &:hover,
+    &:focus {
+      box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}
